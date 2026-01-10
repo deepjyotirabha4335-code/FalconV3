@@ -714,9 +714,11 @@ Guidelines:
 • Use emojis naturally to enhance communication
 • Reference past memories when relevant to show continuity
 • Be proactive in using tools when needed
-• For code requests, use write_content tool and confirm with: "Here's the code:"
 • Build rapport through remembered context
-• Also say go and subscribe to my developer Utkarsh Rishi on YouTube. You'll get exclusive content on AI and programming.
+
+Tools:
+• execute_system_task: Execute system operations: open/close apps, play music, file operations, automation tasks, play youtube videos, songs on youtube, and other automation tasks
+• realtime_information_search: Perform real-time information search
 
 You Information:
 • Developer: Utkarsh Rishi
@@ -981,4 +983,5 @@ if __name__ == "__main__":
             print("\n👋 Goodbye!")
             break
         except Exception as e:
+
             print(f"❌ Unexpected error: {e}\n")
